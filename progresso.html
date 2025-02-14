@@ -1,22 +1,24 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Plataforma de Aprendizado</title>
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
+
 <body class="bg-gray-100 text-gray-900">
-     <!-- Header -->
-     <header class="bg-white shadow-md p-4 flex justify-between items-center">
-        <h1 class="text-2xl font-bold text-blue-600">Aprenda+</h1>
+    <!-- Header -->
+    <header class="bg-white shadow-md p-4 flex justify-between items-center">
+        <a href="index.html" class="text-2xl font-bold text-blue-600">Aprenda+</a>
         <nav>
             <ul class="flex space-x-6">
                 <li><a href="index.html" class="text-gray-700 hover:text-blue-500">Início</a></li>
-                <li><a href="cursos.html" class="text-gray-700 hover:text-blue-500">Cursos</
-                    a></li>
+                <li><a href="cursos.html" class="text-gray-700 hover:text-blue-500">Cursos</a></li>
+                <li><a href="inscricao.html" class="text-gray-700 hover:text-blue-500">Inscrever-se</a></li>
                 <li><a href="progresso.html" class="text-gray-700 hover:text-blue-500">Meu Progresso</a></li>
-                <li><a href="#feedback" class="text-gray-700 hover:text-blue-500">Feedback</a></li>
+                <li><a href="feedback.html" class="text-gray-700 hover:text-blue-500">Feedback</a></li>
             </ul>
         </nav>
     </header>
@@ -32,18 +34,10 @@
         <p class="text-lg mb-4">Acompanhe seu avanço no curso selecionado.</p>
         <section id="cursos" class="py-12 px-6">
             <h2 class="text-3xl font-bold text-center mb-6">Selecionar curso</h2>
-            <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
-                <div class="bg-white p-6 rounded-lg shadow-md">
+            <div class="flex justify-center"> 
+                <div class="bg-white p-6 rounded-lg shadow-md w-80 text-center">
                     <h3 class="text-xl font-semibold">Inglês</h3>
                     <p class="text-gray-600">Curso completo do básico ao avançado.</p>
-                </div>
-                <div class="bg-white p-6 rounded-lg shadow-md">
-                    <h3 class="text-xl font-semibold">Espanhol</h3>
-                    <p class="text-gray-600">Aprenda espanhol de forma prática.</p>
-                </div>
-                <div class="bg-white p-6 rounded-lg shadow-md">
-                    <h3 class="text-xl font-semibold">Francês</h3>
-                    <p class="text-gray-600">Curso dinâmico para iniciantes.</p>
                 </div>
             </div>
         </section>
@@ -54,7 +48,9 @@
     <section id="feedback" class="py-12 px-6 text-center">
         <h2 class="text-3xl font-bold mb-4">Parabéns pelo seu progresso!</h2>
         <p class="text-lg mb-6">Continue aprendendo e conquiste novos desafios.</p>
-        <a href="cursos.html" class="bg-purple-500 text-white px-6 py-3 rounded-lg text-lg hover:bg-purple-600">Explorar mais cursos</a>
+        <a href="cursos.html" class="bg-purple-500 text-white px-6 py-3 rounded-lg text-lg hover:bg-purple-600">Explorar
+            mais cursos</a>
     </section>
 </body>
+
 </html>

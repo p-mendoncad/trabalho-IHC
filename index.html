@@ -6,25 +6,25 @@
     <title>Plataforma de Aprendizado</title>
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body class="bg-gray-100 text-gray-900">
+<body class="bg-gray-100 text-gray-900 flex flex-col min-h-screen">
      <!-- Header -->
      <header class="bg-white shadow-md p-4 flex justify-between items-center">
-        <h1 class="text-2xl font-bold text-blue-600">Aprenda+</h1>
+        <a href="index.html" class="text-2xl font-bold text-blue-600">Aprenda+</a>
         <nav>
           <ul class="flex space-x-6">
               <li><a href="index.html" class="text-gray-700 hover:text-blue-500">Início</a></li>
-              <li><a href="cursos.html" class="text-gray-700 hover:text-blue-500">Cursos</
-                  a></li>
+              <li><a href="cursos.html" class="text-gray-700 hover:text-blue-500">Cursos</a></li>
+              <li><a href="inscricao.html" class="text-gray-700 hover:text-blue-500">Inscrever-se</a></li>
               <li><a href="progresso.html" class="text-gray-700 hover:text-blue-500">Meu Progresso</a></li>
-              <li><a href="#feedback" class="text-gray-700 hover:text-blue-500">Feedback</a></li>
+              <li><a href="feedback.html" class="text-gray-700 hover:text-blue-500">Feedback</a></li>
           </ul>
       </nav>
     </header>
     <!-- Tela Inicial -->
-    <section class="h-screen flex flex-col justify-center items-center text-center p-4">
+    <section class="min-h-[75vh] flex flex-col justify-center items-center text-center p-4">
         <h1 class="text-4xl font-bold mb-4">Aprenda um Novo Idioma!</h1>
         <p class="text-lg mb-6">Escolha um curso e comece sua jornada agora mesmo.</p>
-        <a href="#cursos" class="bg-blue-500 text-white px-6 py-3 rounded-lg text-lg hover:bg-blue-600">Ver Cursos</a>
+        <a href="cursos.html" class="bg-blue-500 text-white px-6 py-3 rounded-lg text-lg hover:bg-blue-600">Ver Cursos</a>
     </section>
 
     <!-- Catálogo de Cursos
@@ -49,8 +49,8 @@
         </div>
     </section>
 
-    <!-- Tela de Progresso -->
-    <!-- <section id="progresso" class="py-12 px-6 text-center">
+     Tela de Progresso 
+    <section id="progresso" class="py-12 px-6 text-center">
         <h2 class="text-3xl font-bold mb-4">Seu Progresso</h2>
         <p class="text-lg mb-4">Acompanhe seu avanço no curso selecionado.</p>
         <div class="w-full max-w-lg mx-auto bg-gray-300 rounded-full h-6">
@@ -58,8 +58,8 @@
         </div>
     </section>
 
-    <!-- Tela de Feedback -->
-    <!-- <section id="feedback" class="py-12 px-6 text-center">
+     Tela de Feedback
+     <section id="feedback" class="py-12 px-6 text-center">
         <h2 class="text-3xl font-bold mb-4">Parabéns pelo seu progresso!</h2>
         <p class="text-lg mb-6">Continue aprendendo e conquiste novos desafios.</p>
         <a href="#cursos" class="bg-purple-500 text-white px-6 py-3 rounded-lg text-lg hover:bg-purple-600">Explorar mais cursos</a>

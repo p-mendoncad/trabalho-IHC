@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inscrição no Curso</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-gray-100 text-gray-900">
+    <!-- Header -->
+    <header class="bg-white shadow-md p-4 flex justify-between items-center">
+        <a href="index.html" class="text-2xl font-bold text-blue-600">Aprenda+</a>
+        <nav>
+            <ul class="flex space-x-6">
+                <li><a href="index.html" class="text-gray-700 hover:text-blue-500">Início</a></li>
+                <li><a href="cursos.html" class="text-gray-700 hover:text-blue-500">Cursos</a></li>
+                <li><a href="inscricao.html" class="text-gray-700 hover:text-blue-500">Inscrever-se</a></li>
+                <li><a href="progresso.html" class="text-gray-700 hover:text-blue-500">Meu Progresso</a></li>
+                <li><a href="feedback.html" class="text-gray-700 hover:text-blue-500">Feedback</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Tela de Inscrição -->
+    <section class="max-w-lg mx-auto mt-12 p-6 bg-white rounded-lg shadow-md">
+        <h2 class="text-3xl font-bold text-center mb-6">Inscrição no Curso</h2>
+        <form action="#" method="POST" class="space-y-4">
+            <div>
+                <label for="nome" class="block text-lg font-medium">Nome Completo</label>
+                <input type="text" id="nome" name="nome" required
+                    class="w-full p-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500">
+            </div>
+            <div>
+                <label for="email" class="block text-lg font-medium">E-mail</label>
+                <input type="email" id="email" name="email" required
+                    class="w-full p-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500">
+            </div>
+            <div>
+                <label for="senha" class="block text-lg font-medium">Senha</label>
+                <input type="senha" id="senha" name="senha" required
+                    class="w-full p-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500">
+            </div>
+            <div>
+                <label for="curso" class="block text-lg font-medium">Selecione o Curso</label>
+                <select id="curso" name="curso" required
+                    class="w-full p-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500">
+                    <option value="">Escolha um curso</option>
+                    <option value="ingles">Inglês</option>
+                    <option value="espanhol">Espanhol</option>
+                    <option value="frances">Francês</option>
+                </select>
+            </div>
+            <button type="submit" class="w-full bg-blue-500 text-white py-2 rounded-lg text-lg hover:bg-blue-600">
+                <a href="index.html"
+                    class="block w-full bg-blue-500 text-white py-2 rounded-lg text-lg text-center hover:bg-blue-600">
+                    Inscrever-se
+                </a>
+            </button>
+        </form>
+    </section>
+</body>
+
+</html>
